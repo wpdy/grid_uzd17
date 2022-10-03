@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "grid1 grid2 grid2 grid3 grid4"
+    "grid5 grid6 grid7 grid3 grid4"
+    "grid8 grid8 grid8 grid8 grid4"
+    "grid9 grid9 grid10 grid11 grid4"
+    "grid9 grid9 grid12 grid13 grid4";
+    gap: 15px;
+    
+}
+
+.item1 {
+    grid-area: grid1;
+    background-color: aqua;
+}
+
+.item2 {
+    grid-area: grid2;
+    background-color: blue;
+}
+
+.item3 {
+    grid-area: grid3;
+    background-color: blue;
+}
+
+.item4 {
+    grid-area: grid4;
+    background-color: blueviolet;
+}
+
+.item5 {
+    grid-area: grid5;
+    background-color: brown;
+}
+
+.item6 {
+    grid-area: grid6;
+    background-color: burlywood;
+}
+
+.item7 {
+    grid-area: grid7;
+    background-color: cadetblue;
+}
+
+.item8 {
+    grid-area: grid8;
+    background-color: chartreuse;
+}
+
+.item9 {
+    grid-area: grid9;
+    background-color: coral;
+}
+
+.item10 {
+    grid-area: grid10;
+    background-color: cornflowerblue;
+}
+
+.item11 {
+    grid-area: grid11;
+    background-color: darkmagenta;
+}
+
+.item12 {
+    grid-area: grid12;
+    background-color: darkorange;
+}
+
+.item13 {
+    grid-area: grid13;
+    background-color: deeppink;
+}
